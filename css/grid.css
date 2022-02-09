@@ -1,6 +1,6 @@
 /* CSS GRID */
 /* **************************************************************** */
-header, main {
+header, main, footer {
     display: grid;
     grid-template-columns: 1fr 1000px 100px;
     gap: 20px;
@@ -10,6 +10,6 @@ header, main {
     grid-column: 2/3;
   }
   
-  header .menu{
+  header .menu, section.redes{
      grid-column: 3/4;
   }
