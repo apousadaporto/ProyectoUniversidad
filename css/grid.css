@@ -1,5 +1,15 @@
 /* CSS GRID */
 /* **************************************************************** */
-.container {
+header, main {
     display: grid;
-}
+    grid-template-columns: 1fr 1000px 100px;
+    gap: 20px;
+  }
+  
+  header .logo, section.texto{
+    grid-column: 2/3;
+  }
+  
+  header .menu{
+     grid-column: 3/4;
+  }
